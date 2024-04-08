@@ -33,7 +33,7 @@ app.post('/send-email', upload.single('fileInput'), (req, res) => {
     // Email message
     const mailOptions = {
         from: email,
-        to: 'thomasmaghanga003.com',
+        to: 'thomasmaghanga003@gmail.com',
         subject: 'New Quote Request',
         text: `Name: ${name}\nEmail: ${email}\nPhone Number: ${number}\nMessage: ${message}`
     };
