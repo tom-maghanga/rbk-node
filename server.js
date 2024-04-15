@@ -26,7 +26,7 @@ app.post('/send-email', upload.single('fileInput'), (req, res) => {
         service: 'gmail', // e.g., Gmail, Yahoo, etc.
         auth: {
             user: 'redberylkenya@gmail.com',
-            pass: 'flfl wpsp uhyp vlxv'
+            pass: 'coad wsou dfsr laqv'
         }
     });
 
